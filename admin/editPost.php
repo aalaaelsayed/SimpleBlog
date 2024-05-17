@@ -164,7 +164,7 @@ include_once("include/headcopy.php");
 											<label class="col-form-label col-md-3 col-sm-3 label-align" for="image">Image <span class="required">*</span>
 											</label>
 											<div class="col-md-6 col-sm-6 ">
-												<input type="file" id="image" name="image"   required="required" class="form-control" >
+												<input type="file" id="image" name="image"    class="form-control" >
 												<img src="../images/<?php echo $image; ?>" alt="<?php echo $title;?>" style="width: 300px;">
 											</div>
 										</div>
